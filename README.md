@@ -7,7 +7,7 @@ This package provides a wrapper for Chartjs that allows it to be used simply and
 
 ## 1. Installing this package
 ```bash
-composer require icehouse-ventures/laravel-chartjs
+composer require markt-peakroi/laravel-chartjs
 ```
 
 For older versions of Laravel (8 and below), add the Service Provider in your file config/app.php:
@@ -246,7 +246,7 @@ You can then customise the published Blade file at `./views/vendor/laravelchartj
 To revert any customisation, simply delete or rename this file from your application.
 
 # Livewire Interactive Charts
-This package has support for dynamic live updating charts in Livewire. See the [demo repo](https://github.com/icehouse-ventures/laravel-chartjs-demo) Note that the conventions for passing props to Livewire (such as declaring public properties or adding attributes to a function may vary for your Livewire version. 
+This package has support for dynamic live updating charts in Livewire. See the [demo repo](https://github.com/markt-peakroi/laravel-chartjs-demo) Note that the conventions for passing props to Livewire (such as declaring public properties or adding attributes to a function may vary for your Livewire version. 
 
 ```php
  // Inside your Livewire blade component: example-livewire-chart-demo.blade.php
